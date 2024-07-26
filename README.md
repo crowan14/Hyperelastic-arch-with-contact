@@ -6,4 +6,4 @@ The energy functional whose minimum corresponds to a solution is
 
 $$ \Pi = \int \Psi d\Omega - \int t_i u_i dS + \lambda \int I(g(s))^2 ds $$ 
 
-\noindent where $\Psi$ is the strain energy density, $\lambda$ is a contact penalty parameter, $g(s)$ is a function measuring the distance to contact along an a priori known contact surface (gap function), and $I(x)$ is an indicator function which satisfies $I(x)=0$ for $x>0$ and $I(x)=x$ for $x\leq 0$. This simply says that there is a penalty to the energy when the structure penetrates the contact surface.
+where $\Psi$ is the strain energy density, $\lambda$ is a contact penalty parameter, $g(s)$ is a function measuring the distance to contact along an a priori known contact surface (gap function), and $I(x)$ is an indicator function which satisfies $I(x)=0$ for $x>0$ and $I(x)=x$ for $x\leq 0$. This simply says that there is a penalty to the energy when the structure penetrates the contact surface.
